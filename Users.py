@@ -9,3 +9,4 @@ class Xrhsths:
     def viewFeed(self):
         x = self.announcement_feed
         print(x)
+print("test")
