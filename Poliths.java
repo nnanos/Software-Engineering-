@@ -7,8 +7,10 @@ import javax.swing.JTextPane;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class Poliths {
+public class Poliths extends Xrhsths {
 
+	private int prescription_code;
+	
 	private JFrame frame;
 	private JTextField longitude;
 	private JTextField latitude;
@@ -17,6 +19,15 @@ public class Poliths {
 	/**
 	 * Launch the application.
 	 */
+	Poliths(String username,String password,String email,int id,String announcement_feed){
+		this.username = username;
+		this.password = password;
+		this.email = email;
+		this.id = id;
+		this.announcement_feed = announcement_feed;
+	}
+	
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
