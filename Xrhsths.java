@@ -7,7 +7,7 @@ public class Xrhsths {
 	public int  id;
 	public String announcement_feed; 
 	
-	Xrhsths(String username,String password,String email,int id,String announcement_feed){
+	public Xrhsths(String username,String password,String email,int id,String announcement_feed){
 		
 	this.username=username;
 	this.password=password;
