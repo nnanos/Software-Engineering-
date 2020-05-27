@@ -7,8 +7,8 @@ public class Poliths extends Xrhsths{
 		super(username, password, email, id, announcement_feed);
 	}
 	
+	//test main
 	public static void main(String[] args) {
-		Poliths f = new Poliths("kappa", "keepo", "kappa@mail.com", 1, "fresko");
-		System.out.println(f.username + f.password + f.email + f.id);
+		
 	}
 }
