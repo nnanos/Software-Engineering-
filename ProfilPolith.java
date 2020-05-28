@@ -71,7 +71,7 @@ public class ProfilPolith extends JFrame {
 		contentPane.add(lblNewLabel_1);
 		
 		JTextPane textPane = new JTextPane();
-		textPane.setBounds(10, 123, 320, 172);
+		textPane.setBounds(10, 123, 320, 128);
 		contentPane.add(textPane);
 		
 		JButton editTherapyProgramButton = new JButton("\u0395\u03C0\u03B5\u03BE\u03B5\u03C1\u03B3\u03B1\u03C3\u03AF\u03B1");
@@ -79,7 +79,7 @@ public class ProfilPolith extends JFrame {
 		contentPane.add(editTherapyProgramButton);
 		
 		JTextPane textPane_1 = new JTextPane();
-		textPane_1.setBounds(400, 123, 239, 239);
+		textPane_1.setBounds(400, 123, 239, 200);
 		contentPane.add(textPane_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("\u039B\u03AF\u03C3\u03C4\u03B1 \u03C4\u03C1\u03B5\u03C7\u03CC\u03BD\u03C4\u03C9\u03BD \u03C0\u03C1\u03BF\u03B3\u03C1\u03B1\u03BC\u03BC\u03AC\u03C4\u03C9\u03BD \u03B8\u03B5\u03C1\u03B1\u03C0\u03B5\u03AF\u03B1\u03C2");

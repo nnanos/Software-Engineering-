@@ -63,6 +63,10 @@ public class ArxikhPolith {
 		frame.getContentPane().add(profileButton);
 		
 		JButton docReqButton = new JButton("\u0391\u03AF\u03C4\u03B7\u03C3\u03B7 \u03B5\u03C0\u03B9\u03BA\u03BF\u03B9\u03BD\u03C9\u03BD\u03AF\u03B1\u03C2 \u03BC\u03B5 \u03B9\u03B1\u03C4\u03C1\u03CC");
+		docReqButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
 		docReqButton.setBounds(10, 139, 226, 40);
 		frame.getContentPane().add(docReqButton);
 		
