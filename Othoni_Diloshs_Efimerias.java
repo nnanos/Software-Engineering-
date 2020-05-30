@@ -1,4 +1,5 @@
 import java.awt.BorderLayout;
+import java.awt.Component;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -9,9 +10,13 @@ import javax.swing.JTextArea;
 import javax.swing.JTextPane;
 import javax.swing.UIManager;
 import java.awt.Font;
+import java.awt.Window;
+
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
+
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.DropMode;
@@ -61,7 +66,8 @@ public class Othoni_Diloshs_Efimerias extends JFrame {
 		JButton Oloklirosh = new JButton("\u039F\u03BB\u03BF\u03BA\u03BB\u03AE\u03C1\u03C9\u03C3\u03B7 \u03B4\u03AE\u03BB\u03C9\u03C3\u03B7\u03C2 \u03B5\u03C6\u03B7\u03BC\u03B5\u03C1\u03AF\u03B1\u03C2");
 		Oloklirosh.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-					System.out.println("Oloklhrosh");
+				Component frame = null;
+				JOptionPane.showMessageDialog(frame, "Επιτυχής Δήλωση");
 				}
 				
 			
