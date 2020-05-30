@@ -45,6 +45,9 @@ public class OthoniFarmakopoiou {
 		JButton dilosh_apothematwn = new JButton("\u0394\u03AE\u03BB\u03C9\u03C3\u03B7 \u0391\u03C0\u03BF\u03B8\u03B5\u03BC\u03AC\u03C4\u03C9\u03BD");
 		dilosh_apothematwn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				frame.dispose();
+				Othoni_dilwhs_apothematwn othoni_diloshs_Apothematwn = new Othoni_dilwhs_apothematwn();
+				othoni_diloshs_Apothematwn.setVisible(true);
 			}
 		});
 		dilosh_apothematwn.setBounds(124, 146, 199, 79);
