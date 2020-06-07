@@ -13,6 +13,7 @@ public class Perioxi{
 		return med_ints;
 	}	
 	
+	/*
 	calculateRemainingResources(Medical_institution med_int_under_considaration,Analwsimos_Poros poros){
 	
 	}
@@ -20,8 +21,10 @@ public class Perioxi{
 	estimateLackOfRecources(Medical_institution med_insts){
 	}
 	
+	
 	dangerEstimation(){
 	}
+	*/
 
 }	
 	
